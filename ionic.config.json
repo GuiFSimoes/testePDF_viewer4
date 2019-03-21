@@ -1,0 +1,7 @@
+{
+  "name": "testeBlank",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
