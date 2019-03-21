@@ -4,6 +4,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
+import { defineCustomElements } from '@teamhive/pdf-viewer/dist/loader';
+defineCustomElements(window);
+
 if (environment.production) {
   enableProdMode();
 }
